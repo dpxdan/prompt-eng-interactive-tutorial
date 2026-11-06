@@ -1,58 +1,67 @@
-# Welcome to Anthropic's Prompt Engineering Interactive Tutorial
+# Bem-vindo ao Tutorial Interativo de Engenharia de Perguntas da Anthropic
 
-## Course introduction and goals
+## Introdução e objetivos do curso
 
-This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude.
+Este curso tem como objetivo fornecer a você uma compreensão abrangente, passo a passo, de como criar perguntas otimizadas no Claude.
 
-**After completing this course, you will be able to**:
-- Master the basic structure of a good prompt 
-- Recognize common failure modes and learn the '80/20' techniques to address them
-- Understand Claude's strengths and weaknesses
-- Build strong prompts from scratch for common use cases
+**Ao concluir este curso, você será capaz de:**
+- Dominar a estrutura básica de uma boa pergunta
+- Reconhecer falhas comuns e aprender as técnicas "80/20" para solucioná-las
+- Compreender os pontos fortes e fracos do Claude
+- Criar perguntas eficazes do zero para casos de uso comuns
 
-## Course structure and content
+## Estrutura e conteúdo do curso
 
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**. 
+Este curso foi estruturado para lhe dar muitas oportunidades de praticar a escrita e a resolução de problemas com perguntas. O curso está dividido em **9 capítulos com exercícios correspondentes**, além de um apêndice com métodos ainda mais avançados. A recomendação é que você **faça o curso na ordem dos capítulos**.
 
-**Each lesson has an "Example Playground" area** at the bottom where you are free to experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing).
+**Cada lição possui uma área de "Exemplos"** na parte inferior, onde você pode experimentar os exemplos da lição e ver por si mesmo como a alteração das perguntas pode mudar as respostas do Claude.  Também há um [gabarito](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing).
 
-Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Haiku. Anthropic has [two other models](https://docs.anthropic.com/claude/docs/models-overview), Claude 3 Sonnet and Claude 3 Opus, which are more intelligent than Haiku, with Opus being the most intelligent.
+Observação: Este tutorial usa nosso modelo mais simples, rápido e econômico, o Claude 3 Haiku. O Anthropic possui [dois outros modelos](https://docs.anthropic.com/claude/docs/models-overview), o Claude 3 Sonnet e o Claude 3 Opus, que são mais inteligentes que o Haiku, sendo o Opus o mais inteligente.
 
-*This tutorial also exists on [Google Sheets using Anthropic's Claude for Sheets extension](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing). We recommend using that version as it is more user friendly.*
+ *Este tutorial também está disponível no [Google Sheets usando a extensão Claude for Sheets da Anthropic](https://docs.google.com/spreadsheets/d/19jzLgRruG9kjUQNKtCg1ZjdD6l6weA6qRXG5zLIAhC8/edit?usp=sharing). Recomendamos o uso dessa versão, pois é mais fácil de usar.*
 
-When you are ready to begin, go to `01_Basic Prompt Structure` to proceed.
+Quando estiver pronto para começar, acesse `01_Estrutura Básica de Instruções` para prosseguir.
 
-## Table of Contents
+## Sumário
 
-Each chapter consists of a lesson and a set of exercises.
+Cada capítulo consiste em uma lição e um conjunto de exercícios.
 
-### Beginner
-- **Chapter 1:** Basic Prompt Structure
+ ### Iniciante
+- **Capítulo 1:** Estrutura Básica de Instruções
 
-- **Chapter 2:** Being Clear and Direct  
+- **Capítulo 2:** Clareza e objetividade
 
-- **Chapter 3:** Assigning Roles
+- **Capítulo 3:** Atribuição de Funções
 
-### Intermediate 
-- **Chapter 4:** Separating Data from Instructions
+### Intermediário
 
-- **Chapter 5:** Formatting Output & Speaking for Claude
+- **Capítulo 4:** Separando Dados de Instruções
 
-- **Chapter 6:** Precognition (Thinking Step by Step)
+- **Capítulo 5:** Formatação de Saída e Fala por Claude
 
-- **Chapter 7:** Using Examples
+- **Capítulo 6:** Precognição (Pensamento Passo a Passo)
 
-### Advanced
-- **Chapter 8:** Avoiding Hallucinations
+- **Capítulo 7:** Uso de Exemplos
 
-- **Chapter 9:** Building Complex Prompts (Industry Use Cases)
-  - Complex Prompts from Scratch - Chatbot
-  - Complex Prompts for Legal Services
-  - **Exercise:** Complex Prompts for Financial Services
-  - **Exercise:** Complex Prompts for Coding
-  - Congratulations & Next Steps
+### Avançado
+- **Capítulo 8:** Evitando Alucinações
 
-- **Appendix:** Beyond Standard Prompting
-  - Chaining Prompts
-  - Tool Use
-  - Search & Retrieval
+- **Capítulo 9:** Criando Instruções Complexas (Casos de Uso na Indústria)
+
+- Instruções Complexas do Zero - Chatbot
+
+- Instruções Complexas para Serviços Jurídicos
+
+- **Exercício:** Instruções Complexas para Serviços Financeiros
+
+- **Exercício:** Instruções Complexas para Programação
+
+- Parabéns e Próximos Passos
+
+- **Apêndice:** Além das Instruções Padrão
+
+- Encadeamento de Instruções
+
+- Ferramenta  Utilização
+
+- Busca e recuperação
